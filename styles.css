@@ -1,0 +1,119 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FCEAC7;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 60px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+  }
+  
+  section {
+    padding: 80px 20px 20px; /* Added padding-top of 80px */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h2 {
+    color: #000;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .segment {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, coral, #FFD3A5);
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+  }
+  
+  .segment h3 {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .segment ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .segment ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .news-feed {
+    /* Style the news feed section */
+  }
+  
+  .event-list {
+    /* Style the event list section */
+  }
+  
+  .job-listings {
+    /* Style the job listings section */
+  }
+  
